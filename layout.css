@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+body{
+  background-color: #4346e2;
+  margin: 20px auto 120px;
+}
+nav{
+ 
+}
+.container{
+  padding: 4px;
+ 
+  
+}
+.wrapper{
+  margin: 0 auto;
+ 
+  padding: 4px;
+  box-sizing: border-box;
+  background-color: #EEB0B0;
+  width: 940px; height: 833px;
+}
+
+header .background  {
+  background-color: #7D1E6A;
+  height: 130px;
+ 
+  align-items: center;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+header .background .main_title{
+  margin-left: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gnb ul{
+  display: flex;
+  background-color: #FFCD38;
+ 
+
+}
+.gnb ul li{
+  width: 100px; height: 46px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 46px;
+  font-weight: bold;
+  color: #7D1E6A;
+}
+.gnb ul li a:hover{
+  display: block;
+  width: 100px; height: 46px;
+  background-color:#E4010B ;
+  color: #FFf;
+}
+
+
+.contents{
+ 
+  background-color: #F1EEE9;
+  height:614px ;
+  box-sizing: border-box;
+  
+}
+section{
+  padding: 20px 25px;
+}
+figure{
+  padding: 8px;
+  border: 1px solid #e4010B;
+  background-color: #fff;
+}
+
+.contents_list{
+  display: flex;
+  gap:21px;
+  
+}
+figcaption{
+  font-style: italic;
+  padding: 7px 0;
+  text-align: end;
+  font-size: 15px;
+  color: #ddd;
+}
+section ul li{
+  margin-bottom: 40px;
+}
+.contents_list_text h2{
+  font-weight: 900;
+  font-size: 23px;
+  margin-bottom:19px ;
+}
+.contents_list_text h3{
+  font-weight: bolder;
+  color: #E4010B;
+  margin-bottom: 16px;
+}
+.contents_list_text p{
+  color: #524f4f;
+  width: 272px;
+}
+
+.contents section{
+  flex-grow: 7;
+  
+}
+.contents aside{
+  flex-grow: 3;
+  background-color: #fff;
+  
+}
+ aside{
+ 
+}
+aside ul li h2{
+  font-size: 23px;
+  color: #E4010B;
+  
+  padding:34px 21px ;
+  font-weight: bold;
+}
+aside ul li ul li{
+  font-size: 18px;
+  
+  border-bottom: 1px  solid #e4010B;
+  color: #524f4f;
+  padding: 21px 23px;
+  padding-top: 27px;
+}
+aside ul li p{
+  padding-left: 23px;
+  font-weight: bold;
+
+}
+aside ul li ul li:hover {
+  background-color: #E4010B;
+  color: #fff;
+}
+footer p{
+  background-color: #7D1E6A;
+  font-size: 12px;
+  padding: 9px 10px 14px 20px;
+}
+footer{
+  
+}
