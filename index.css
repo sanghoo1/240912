@@ -4,9 +4,7 @@ body{
   background-color: #4346e2;
   margin: 20px auto 120px;
 }
-nav{
- 
-}
+
 .container{
   padding: 4px;
  
@@ -113,9 +111,7 @@ section ul li{
   background-color: #fff;
   
 }
- aside{
- 
-}
+
 aside ul li h2{
   font-size: 23px;
   color: #E4010B;
@@ -144,7 +140,4 @@ footer p{
   background-color: #7D1E6A;
   font-size: 12px;
   padding: 9px 10px 14px 20px;
-}
-footer{
-  
 }
